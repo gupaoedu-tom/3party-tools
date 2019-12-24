@@ -33,7 +33,7 @@ cp env.py.example env.py
 自动打码
 
 （若快已停止服务，目前只能设置**free**打码模式）
-free 已对接到打码共享平台，[https://py12306-helper.pjialin.com](https://py12306-helper.pjialin.com/)，欢迎参与分享
+free 已对接到打码共享平台，[http://www.ruokuai.com](http://www.ruokuai.com)
 
 语音通知
 
@@ -132,17 +132,12 @@ docker-compose up -d
     - 新增 ServerChan 和 PushBear 微信推送
 - 19-01-18
     - 新增 CDN 查询
+- 19-12-24
+    - 兼容pip3
+    - 兼容Python 3.8
 
 ### 关于防封
 目前查询和登录操作是分开的，查询是不依赖用户是否登录，放在 A 云 T 云容易被限制 ip，建议在其它网络环境下运行
-
-### Online IDE
-[![在 Gitpod 中打开](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/pjialin/py12306)
-
-## Thanks
-- 感谢大佬 [testerSunshine](https://github.com/testerSunshine/12306)，借鉴了部分实现
-- 感谢所有提供 pr 的大佬 
-- 感谢大佬 [zhaipro](https://github.com/zhaipro/easy12306) 的验证码本地识别模型与算法
 
 ## License
 
