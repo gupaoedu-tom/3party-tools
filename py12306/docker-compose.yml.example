@@ -1,0 +1,13 @@
+version: "2"
+services:
+  py12306:
+    build: .
+    volumes:
+      # - ./runtime:/code/runtime  # 未使用 env.docker.py.example 可以打开此项
+      - ./env.py:/config/env.py
+      - py12306:/data
+    ports:
+      - 8008:8008
+
+volumes:
+  py12306:
