@@ -142,3 +142,6 @@ docker-compose up -d
 ## License
 
 此代码转载自[Apache License](https://github.com/pjialin/py12306/blob/master/LICENSE)，如侵权请联系删除。
+
+## 畅销书推荐
+[《Spring 5核心原理与30个类手写实战》](https://item.jd.com/12650902.html)
